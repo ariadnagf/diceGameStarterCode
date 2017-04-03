@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-        <script src="script.js"></script>
-        <!-- external CSS link -->
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
+      <!-- JS Libraries -->
+      <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 
-        <title>Dice Roll Game</title>
+      <!-- CSS Links -->
+      <link rel="stylesheet" href="css/base.css">
+      <link rel="stylesheet" href="css/style.css">
+
+      <title>Dice Roll Game</title>
     </head>
   <body>
     <div id="container">
@@ -15,11 +16,15 @@
         <h1>Dice Roller</h1>
       </header>
       <section id="content">
-        <div class="dice" id="first-die"></div>
-        <div class="dice" id="second-die"></div>
-        <input id="roll-dice" type="button" value="Roll the Dice">
+        <div>
+          <img id="first-die" class="dice" src="images/2.png"/>
+          <img id="second-die" class="dice" src="images/6.png" />
+        </div>
+        <button id="roll-dice">
+          Roll the Dice
+        </button>
       </section>
-    </div><!-- #container -->
-    <script type="text/javascript" src="js/app.js"></script>
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>
