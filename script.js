@@ -5,6 +5,8 @@ $(document).ready(function(){
  
  $("#roll-dice").click(function() {
     $("body").append(rolldice());
+    $("#first-die").attr("src","images/4.png");
+    $("#second-die").attr("src","images/6.png");
   });
   function rolldice(){
   //Place your code here
