@@ -2,9 +2,9 @@ $(document).ready(function(){
   $("button").click(function(){
     var name = $("#input").val();
   });
-  $("body").append(rolldice());
+ 
  $("#roll-dice").click(function() {
-    
+    $("body").append(rolldice());
   });
   function rolldice(){
   //Place your code here
